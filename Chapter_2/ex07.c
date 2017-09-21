@@ -9,8 +9,8 @@ unsigned invert(unsigned x, int p, int n);
 int main(){
   /*  //For testing purposes
   unsigned testx = 240;       // 11110000 binary
-  int testp = 7;              // select from bit 5
-  int testn = 3;              // select 3 bits
+  int testp = 7;              // select from bit 7
+  int testn = 3;              // select 3 bits, right-adjusted
   unsigned assertEqual = 16; // correct change [111]10000 -> [000]10000 = 16
   if (invert(testx,testp,testn) == assertEqual){
     printf("Test Passed\n");
