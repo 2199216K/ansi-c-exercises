@@ -41,7 +41,7 @@ int strindex(char s[], char t[]){
     for (j=i, k=strlen(t)-1; k >= 0 && i >= 0 && s[j] == t[k]; j--, k--)
       ;
     if (k == -1){
-      printf("index found: %d", j+1);
+      // printf("index found: %d", j+1);
       return j+1;
     }
   }
